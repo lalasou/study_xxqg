@@ -29,7 +29,7 @@ class Home extends Component<any, any>{
         return <>
             <NavBar backArrow={false} style={{color:"blue",backgroundColor:"#bad7ba"}} onBack={()=>{
                 window.history.back()
-            }} ><h3>StudyXXQG</h3></NavBar>
+            }} ><h3>金刚学习强国辅助</h3></NavBar>
             <Routes>
 
                 <Route path={"add_user"} element={<AddUser navigate={this.props.navigate} location={this.props.location}/>}>
